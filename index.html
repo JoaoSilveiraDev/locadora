@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locadora Filmex</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="./index.html">Locadora Fil<span>Mex</span></a>
+        <div class="mobile-menu">
+          <p class="texto">
+            C<span>a</span>d<span>a</span>s<span>t</span>r<span>o</span>
+          </p>
+        </div>
+        <ul class="nav-list">
+          <input
+            type="text"
+            class="input"
+            placeholder="Seu nome..."
+            required
+            id="nomeCadastro"
+          />
+          <input
+            type="email"
+            class="input"
+            placeholder="Seu email..."
+            required
+            id="emailCadastro"
+          />
+          <input
+            type="password"
+            class="input"
+            placeholder="Sua senha..."
+            required
+            id="senhaCadastro"
+          />
+          <input
+            type="password"
+            class="input"
+            placeholder="Confirme sua senha..."
+            required
+            id="confirmacaoSenhaCadastro"
+          />
+          <input type="text" class="input" placeholder="Palavra Chave" required id="palavraChave">
+          <button class="btn" id="botaoCadastro">Cadastrar</button>
+          <button class="btn" id="redefinir">Redefinir</button>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="apresentacao">
+        <img src="./mamae.png" alt="fantasma" class="imagem">
+        <input
+          type="email"
+          class="input"
+          placeholder="Digite seu e-mail..."
+          id="emailLogin"
+          required
+        />
+        <input
+          type="password"
+          class="input"
+          placeholder="Digite sua senha..."
+          id="senhaLogin"
+          required
+        />
+        <a class="btn" id="botaoLogin" href="./locadora.html">Login</a>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>
